@@ -64,34 +64,34 @@ including:
 DWE also includes a number of smaller enhancements to relationships,
 events, place names, indexes and other parts of the generated website.
 
-## Installation
+## Installation through Gramps Addon Manager
 
-Dynamic Web Extended is distributed as a Gramps addon and can be
-installed and updated using the Gramps Addon Manager.
+Dynamic Web Extended is available for Gramps 5.2 and Gramps 6.0. The current release is version 0.3.6.
 
-DWE is distributed through an addon project containing versions
-appropriate for supported versions of Gramps.
+To install:
 
-In Gramps, open the **Addon Manager**. If the Dynamic Web Extended
-project is not already configured, add the DWE project under
-**Projects** and ensure that it is enabled.
+1. Open Gramps and select **Tools → Addon Manager**.
+2. Add a new addon project using the URL appropriate to your Gramps version:
 
-The project address must be appropriate for the version of Gramps you
-are using.
+   **Gramps 5.2**
+   ```
+   https://raw.githubusercontent.com/johnvitlin/DWE-Addons/main/gramps52
+   ```
 
-**DWE addon project addresses:**
+   **Gramps 6.0**
+   ```
+   https://raw.githubusercontent.com/johnvitlin/DWE-Addons/main/gramps60
+   ```
 
- -  Gramps 5.2: [PUBLIC PROJECT URL TO BE ADDED]
+3. Refresh the available addons if necessary.
+4. Find **Dynamic Web Extended** in the addon list and install it.
+5. Restart Gramps if prompted.
 
-  - Gramps 6.0: [PUBLIC PROJECT URL TO BE ADDED]
+The report is available under **Reports → Web Pages → Dynamic Web Extended**.
 
-Once the project is enabled, **Dynamic Web Extended** will appear in the
-list of available addons. Select it and install it. If an earlier
-version is installed, the Addon Manager will offer an update.
+The distribution files and user documentation are maintained at:
 
-After installation, DWE is available from:
-
-**Reports → Web Pages → Dynamic Web Extended**
+https://github.com/johnvitlin/DWE-Addons
 
 ## Creating a website
 
@@ -150,13 +150,11 @@ report options and website controls in detail.
 
 **User Guide:**
 
-[Dynamic Web Extended User Guide (PDF)](docs/DWE_User_Guide.pdf)
+[Dynamic Web Extended User Guide (PDF)](https://github.com/johnvitlin/DWE-Addons/blob/main/docs/DWE_User_Guide.pdf)
 
 Features inherited unchanged from Dynamic Web Report are not duplicated
 in the DWE documentation. The standard Gramps Dynamic Web Report
-documentation remains applicable to those features.
-
-**Dynamic Web Report documentation:**
+documentation remains applicable to those features.  It can be found at:
 
 https://gramps-project.org/wiki/index.php?title=DynamicWeb_report
 
