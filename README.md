@@ -11,7 +11,7 @@ presenting and exploring family-history information.
 DWE is a separate addon and does not replace the standard Dynamic Web
 Report. Both reports can be installed and used in Gramps.
 
-**Current release: 0.3.6**
+**Current release: 0.3.7**
 
 DWE has been tested with **Gramps 5.2.3** and **Gramps 6.0.8**.
 
