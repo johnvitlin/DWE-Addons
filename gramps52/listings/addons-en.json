@@ -4,6 +4,7 @@
 "i": "DynamicWebExtended",
 "t": 0,
 "d": "Produces an extended dynamic web report for genealogy",
+"h": "https://github.com/johnvitlin/DWE-Addons/blob/main/README.md",
 "v": "0.3.7",
 "g": "5.2",
 "s": 3,
