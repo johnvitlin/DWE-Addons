@@ -11,6 +11,13 @@ presenting and exploring family-history information.
 DWE is a separate addon and does not replace the standard Dynamic Web
 Report. Both reports can be installed and used in Gramps.
 
+### Help and documentation
+
+Dynamic Web Extended includes the standard report options inherited from Dynamic Web Report (DWR), together with additional options and features introduced by DWE.
+
+- **Standard report options:** See the [Gramps Dynamic Web Report documentation](https://gramps-project.org/wiki/index.php/Addon:DynamicWeb_report) for help with the original DWR options.
+- **DWE additions and enhancements:** See the [DWE User Guide](docs/DWE_User_Guide.pdf) for explanations of the additional features, configuration options and changes introduced by Dynamic Web Extended.
+
 **Current release: 0.3.7**
 
 DWE has been tested with **Gramps 5.2.3** and **Gramps 6.0.8**.
@@ -64,14 +71,30 @@ including:
 DWE also includes a number of smaller enhancements to relationships,
 events, place names, indexes and other parts of the generated website.
 
+## Examples of DWE features
+
+The following screenshots illustrate two of the additional ways DWE presents family-history information.
+
+### Extended Events
+
+The Extended Events display combines a person's own events with relevant events from parents, siblings, spouses and children, providing a chronological view of the family around them.
+
+![Extended Events display](docs/images/events.png)
+
+### Lifespans
+
+The Lifespans display provides a graphical comparison of the lives of a person and their immediate family, making it easier to see which family members were alive at the same time.
+
+![Lifespans display](docs/images/lifespans.png)
+
 ## Installation through Gramps Addon Manager
 
-Dynamic Web Extended is available for Gramps 5.2 and Gramps 6.0. The current release is version 0.3.6.
+Dynamic Web Extended is available for Gramps 5.2 and Gramps 6.0.
 
 To install:
 
 1. Open Gramps and select **Tools → Addon Manager**.
-2. Add a new addon project using the URL appropriate to your Gramps version:
+2. Add a new addon project (you could name it DWE) using the URL appropriate to your Gramps version:
 
    **Gramps 5.2**
    ```
@@ -120,9 +143,10 @@ website and provides brief information about DWE.
 
 ## Viewing a report locally
 
-A generated DWE website can be opened directly by opening `index.html`,
-but some features cannot operate correctly when the website is accessed
-using a `file://` URL.
+This section applies only to websites on a local computer.
+
+A generated DWE website can be opened directly on a computer by opening `index.html`,
+but some features cannot operate correctly.
 
 In particular:
 
@@ -130,12 +154,12 @@ In particular:
   the file system.
 - OpenStreetMap maps do not display correctly in this mode.
 
-On Windows, every generated DWE report includes a file called::
+On Windows, every generated DWE report includes a file called:
 
     View report locally.bat
 
-Double-click this file to start a small local web server and open the
-DWE home page in the browser. Leave the command window open while
+Double-click this file to start a small local web server that opens the
+DWE home page in a browser. Leave the command window open while
 viewing the website.
 
 The local web server runs only on your computer, and your report data
