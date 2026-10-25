@@ -185,7 +185,7 @@ https://gramps-project.org/wiki/index.php?title=DynamicWeb_report
 ## Tree Viewer and Topola
 
 DWE's Tree Viewer uses a bundled version of the **Topola Genealogy
-Viewer**.
+Viewer**.  Topola viewer is written and maintained by Przemek Więch @PeWu.
 
 When **Include Tree Viewer** is selected, DWE generates the genealogical
 data required by the viewer and includes the bundled viewer in the
