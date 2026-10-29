@@ -18,7 +18,9 @@ Dynamic Web Extended includes the standard report options inherited from Dynamic
 - **Standard report options:** See the [Gramps Dynamic Web Report documentation](https://gramps-project.org/wiki/index.php/Addon:DynamicWeb_report) for help with the original DWR options.
 - **DWE additions and enhancements:** See the [DWE User Guide](docs/DWE_User_Guide.pdf) for explanations of the additional features, configuration options and changes introduced by Dynamic Web Extended.
 
-**Current release: 0.3.7**
+**Current release: 0.3.8**
+
+[Release history](CHANGELOG.md)
 
 DWE has been tested with **Gramps 5.2.3** and **Gramps 6.0.8**.
 
@@ -63,9 +65,9 @@ including:
 
 - **Theme selection** — visitors can change the website's appearance using the available styles.
 
-- **Local fonts** — bundles fonts used by the additional themes, avoiding dependence on externally hosted Google Fonts.
+- **Statistics and notable records** — explore interesting records, including ages, marriages, children, and family, with a visitor-selectable result count.
 
-- **Visitor Guide** — provides a guide within the generated website, with an editable Markdown source that allows the website creator to customise instructions for visitors.
+- **Quick Guide** — provides a guide within the generated website, with an editable Markdown source that allows the website creator to customise instructions for visitors.
 
 
 DWE also includes a number of smaller enhancements to relationships,
@@ -167,20 +169,6 @@ is not uploaded to the internet. Features that obtain information from
 external services, such as OpenStreetMap map tiles, still require an
 internet connection.
 
-## Documentation
-
-The full **Dynamic Web Extended User Guide** describes the DWE features,
-report options and website controls in detail.
-
-**User Guide:**
-
-[Dynamic Web Extended User Guide (PDF)](https://github.com/johnvitlin/DWE-Addons/blob/main/docs/DWE_User_Guide.pdf)
-
-Features inherited unchanged from Dynamic Web Report are not duplicated
-in the DWE documentation. The standard Gramps Dynamic Web Report
-documentation remains applicable to those features.  It can be found at:
-
-https://gramps-project.org/wiki/index.php?title=DynamicWeb_report
 
 ## Tree Viewer and Topola
 
@@ -246,7 +234,7 @@ Dynamic Web Extended is free software and is distributed under the
 GNU General Public License, version 2 or (at your option) any later
 version.
 
-See the source files for the applicable copyright and licence notices.
+The full licence text is available in [docs/license-gpl-2.0.txt](docs/license-gpl-2.0.txt).
 
 DWE includes bundled third-party components. Their respective licence
 files are included with those components.
