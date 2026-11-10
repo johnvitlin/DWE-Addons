@@ -2,6 +2,27 @@
 
 Notable changes to Dynamic Web Extended (DWE) are recorded here.
 
+## Version 0.3.9 — November 2026
+
+### New features
+- Added a Calendar page displaying birthdays, marriage anniversaries and death anniversaries.
+- Added Calendar options for event types, year range, first day of the week and surname display for married women.
+- Added an optional Calendar information note.
+- Added a visitor filter for displaying events for living people only or all included people.
+- Added event details through popovers and dialogs, with support for month-only dates and February 29.
+- Integrated Calendar styling with the selected website theme.
+
+### Improvements
+- Simplified internal parent–child relationship phrase handling by removing the built-in default phrase table. The existing relationship note format is unchanged, so existing notes do not need to be modified.
+- Centralized report-generation progress allocations.
+- Added separate progress stages and timing measurements for Calendar and Notable Records.
+- Added a diagnostic confirming completion of all progress units.
+
+### Documentation
+- Updated the User Guide with Calendar instructions and examples.
+- Added Calendar screenshots.
+- Updated the report-generation timing example.
+
 ## Version 0.3.8 — October 2026
 
 ### New features

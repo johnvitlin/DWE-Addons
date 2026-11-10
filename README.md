@@ -18,7 +18,7 @@ Dynamic Web Extended includes the standard report options inherited from Dynamic
 - **Standard report options:** See the [Gramps Dynamic Web Report documentation](https://gramps-project.org/wiki/index.php/Addon:DynamicWeb_report) for help with the original DWR options.
 - **DWE additions and enhancements:** See the [DWE User Guide](docs/DWE_User_Guide.pdf) for explanations of the additional features, configuration options and changes introduced by Dynamic Web Extended.
 
-**Current release: 0.3.8**
+**Current release: 0.3.9**
 
 [Release history](CHANGELOG.md)
 
@@ -65,7 +65,11 @@ including:
 
 - **Theme selection** — visitors can change the website's appearance using the available styles.
 
-- **Statistics and notable records** — explore interesting records, including ages, marriages, children, and family, with a visitor-selectable result count.
+- **Statistics** — provides summaries of genealogical information, including people, families and events.
+
+- **Notable Records** — highlights interesting genealogical records involving ages, marriages, children and families, with a visitor-selectable number of results.
+
+- **Calendar** — displays birthdays, marriage anniversaries and death anniversaries throughout the year, with configurable event types, date ranges and options for displaying living people.
 
 - **Quick Guide** — provides a guide within the generated website, with an editable Markdown source that allows the website creator to customise instructions for visitors.
 
@@ -95,7 +99,7 @@ Dynamic Web Extended is available for Gramps 5.2 and Gramps 6.0.
 
 To install:
 
-1. Open Gramps and select **Tools → Addon Manager**.
+1. Open Gramps and select **Edit → Addon Manager**.
 2. Add a new addon project (you could name it DWE) using the URL appropriate to your Gramps version:
 
    **Gramps 5.2**
