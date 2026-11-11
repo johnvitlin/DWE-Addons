@@ -93,6 +93,16 @@ The Lifespans display provides a graphical comparison of the lives of a person a
 
 ![Lifespans display](docs/images/lifespans.png)
 
+### Calendar
+
+The Calendar displays birthdays, marriage anniversaries and death anniversaries throughout the year. Visitors can explore events by date and view additional information about the people involved.
+
+![Calendar display](docs/images/calendar.png)
+
+Hovering over a date displays additional information about the events occurring on that date.
+
+![Calendar date hover](docs/images/calendar-date-hover.png)
+
 ## Installation through Gramps Addon Manager
 
 Dynamic Web Extended is available for Gramps 5.2 and Gramps 6.0.
