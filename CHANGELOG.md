@@ -2,6 +2,31 @@
 
 Notable changes to Dynamic Web Extended (DWE) are recorded here.
 
+## Version 0.3.10 — November 2026
+
+### New features
+- Added an optional searchable and sortable table for citations on the individual Citations tab, with columns for Citation, Source, Cited in and Details.
+- Added citation context descriptions and links from the table back to the corresponding references on the Individual's page.
+- Added a Configuration checkbox allowing visitors to choose between the original list and the searchable table.
+- Added an optional creator-selected Citations information note, displayed in an initially collapsed About panel on the Citations tab.
+
+### Fixes
+- Fixed missing citations attached directly to event references (EventRefs).
+- Improved the collection and display of citations associated with media objects and media references.
+- Corrected media file paths in the GEDCOM used by the Topola Tree Viewer when media files are copied into the report. The no-copy option is unchanged.
+- Corrected the ordering of media items in galleries to preserve their order in Gramps.
+
+### Improvements
+- Relabeled the individual Sources tab to Citations to better describe its content and function.
+- Added Gramps citation IDs to the Citations display, respecting the existing option to suppress Gramps IDs.
+- Added searching by selected column in the Citations table.
+- Improved the presentation and positioning of citation markers in media galleries.
+- Added translation labels for citation contexts and Citations table controls.
+- Improved table styling, including compatibility with the Enhanced borders option.
+
+### Documentation
+- Updated the User Guide to describe Citations, display options, citation navigation and optional About note.
+
 ## Version 0.3.9 — November 2026
 
 ### New features

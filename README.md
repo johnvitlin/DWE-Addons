@@ -29,41 +29,15 @@ DWE has been tested with **Gramps 5.2.3** and **Gramps 6.0.8**.
 DWE adds a number of features to the standard Dynamic Web Report,
 including:
 
-- **Extended Events** — combines a person's own events with relevant
-  events from parents, siblings, spouses and children to provide a
-  chronological view of the family around them.
+### Major features
 
-- **Event participants** — improved handling of witnesses, clergy and other participants,
-  including their roles.
+- **Extended Events** — combines a person's own events with relevant events from parents, siblings, spouses and children to provide a chronological view of the family around them.
 
-- **Lifespans** — a graphical display showing how the lives of a person
-  and their immediate family overlap.
+- **Lifespans** — a graphical display showing how the lives of a person and their immediate family overlap.
 
-- **Tree Viewer** — an interactive graphical family-tree display using
-  a bundled version of the Topola Genealogy Viewer.
+- **Tree Viewer** — an interactive graphical family-tree display using a bundled version of the Topola Genealogy Viewer.
 
-- **Tracking** — shows how people in the website are related to one or
-  more selected people.
-
-- **Why Me** — allows the website creator to explain why a particular
-  person has been included in the family tree.
-
-- **Story** — provides a short introduction or summary near the top of
-  a person's page.
-
-- **Multiple-family clarity** — changes parts of the family display, making multiple families and less usual family
-  structures easier to understand.
-
-- **Markdown notes** — allows selected Gramps notes written in Markdown
-  to be rendered as formatted content.
-
-- **Local Labels** — allows selected labels in the generated website to
-  be customised without modifying the program code.
-
-- **Website themes** — the original Default and Mainz styles, plus five new
-  Bootswatch themes: Cerulean, Flatly, Journal, Readable and United.
-
-- **Theme selection** — visitors can change the website's appearance using the available styles.
+- **Citations** — provides a searchable and sortable table of citations associated with an individual, including links to the information being cited. Visitors can choose between the table and the original list.
 
 - **Statistics** — provides summaries of genealogical information, including people, families and events.
 
@@ -71,8 +45,31 @@ including:
 
 - **Calendar** — displays birthdays, marriage anniversaries and death anniversaries throughout the year, with configurable event types, date ranges and options for displaying living people.
 
-- **Quick Guide** — provides a guide within the generated website, with an editable Markdown source that allows the website creator to customise instructions for visitors.
+### Individual and family enhancements
 
+- **Event participants** — improved handling of witnesses, clergy and other participants, including their roles.
+
+- **Tracking** — shows how people in the website are related to one or more selected people.
+
+- **Why Me** — allows the website creator to explain why a particular person has been included in the family tree.
+
+- **Story** — provides a short introduction or summary near the top of a person's page.
+
+- **Multiple-family clarity** — changes parts of the family display, making multiple families and less usual family structures easier to understand.
+
+- **Expandable individual details** — provides a collapsible heading on individual pages, allowing visitors to switch between a compact summary showing the person's name and lifespan and the full individual details.
+
+### Website customisation and documentation
+
+- **Markdown notes** — allows selected Gramps notes written in Markdown to be rendered as formatted content.
+
+- **Local Labels** — allows selected labels in the generated website to be customised without modifying the program code.
+
+- **Website themes** — the original Default and Mainz styles, plus five new Bootswatch themes: Cerulean, Flatly, Journal, Readable and United.
+
+- **Theme selection** — visitors can change the website's appearance using the available styles.
+
+- **Quick Guide** — provides a guide within the generated website, with an editable Markdown source that allows the website creator to customise instructions for visitors.
 
 DWE also includes a number of smaller enhancements to relationships,
 events, place names, indexes and other parts of the generated website.
@@ -92,6 +89,18 @@ The Extended Events display combines a person's own events with relevant events 
 The Lifespans display provides a graphical comparison of the lives of a person and their immediate family, making it easier to see which family members were alive at the same time.
 
 ![Lifespans display](docs/images/lifespans.png)
+
+### Individual Citations
+
+DWE extends the original Dynamic Web Report's Sources display, now called **Citations**, on individual pages.
+
+Visitors can choose between the original citation list and a searchable, sortable table. The table identifies each citation, its source, and where the citation is used on the individual's page.
+
+Links in the **Cited in** column take visitors directly to the corresponding citation marker, opening the relevant tab when necessary.
+
+The preferred display format is remembered by the browser. Report creators can also provide an optional explanatory note displayed in a collapsible **About...** panel.
+
+![Individual Citations table](docs/images/individual-citations-table.png)
 
 ### Calendar
 
