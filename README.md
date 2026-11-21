@@ -16,9 +16,9 @@ Report. Both reports can be installed and used in Gramps.
 Dynamic Web Extended includes the standard report options inherited from Dynamic Web Report (DWR), together with additional options and features introduced by DWE.
 
 - **Standard report options:** See the [Gramps Dynamic Web Report documentation](https://gramps-project.org/wiki/index.php/Addon:DynamicWeb_report) for help with the original DWR options.
-- **DWE additions and enhancements:** See the [DWE User Guide](docs/DWE_User_Guide.pdf) for explanations of the additional features, configuration options and changes introduced by Dynamic Web Extended.
+- **DWE additions and enhancements:** See the [Online DWE User Guide](https://johnvitlin.github.io/DWE-User-Guide-Web/) for searchable documentation covering the additional features, configuration options and changes introduced by Dynamic Web Extended. A [PDF version](docs/DWE_User_Guide.pdf) is also available for download and offline reading.
 
-**Current release: 0.3.9**
+**Current release: 0.3.10**
 
 [Release history](CHANGELOG.md)
 
