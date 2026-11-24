@@ -63,7 +63,7 @@ This is normally unnecessary when Poppler can be found automatically.
 
 ## Using PDF Thumbnailer
 
-Once the addon and Poppler are installed, restart Gramps.
+PDF Thumbnailer is registered as a startup addon, and is activated when Gramps starts.  Once the addon and Poppler are installed, restart Gramps.
 
 PDF Thumbnailer runs automatically when Gramps requests a thumbnail for a PDF media object. No additional activation is required.
 
