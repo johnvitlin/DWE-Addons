@@ -9,16 +9,5 @@
 "s": 3,
 "z": "DynamicWebExtended.addon.tgz",
 "h": "https://github.com/johnvitlin/DWE-Addons/blob/main/README.md"
-},
-{
-"n": "PDF Thumbnailer",
-"i": "pdfthumbnailer",
-"t": 14,
-"d": "Generate PDF thumbnails using Poppler",
-"v": "0.1.0",
-"g": "6.0",
-"s": 3,
-"z": "PDFThumbnailer.addon.tgz",
-"h": "https://github.com/johnvitlin/DWE-Addons/blob/main/PDFThumbnailer/README.md"
 }
 ]
